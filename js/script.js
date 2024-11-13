@@ -31,7 +31,18 @@ const francine = createPet("Fancine", "turtle");
 
 //console.log(sora, clover, baxter, cleo, francine);
 
-clover.sleep();
-baxter.play();
+// clover.sleep();
+// baxter.play();
 
-console.log(clover, baxter);
+// console.log(clover, baxter);
+
+clover.isTired = 8;
+francine.isTired = 9;
+
+//Create an array of pets
+const allPets = [
+  sora,
+  clover,
+  baxter,
+  francine
+];
