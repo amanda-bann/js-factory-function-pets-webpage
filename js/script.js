@@ -44,6 +44,7 @@ const allPets = [
   sora,
   clover,
   baxter,
+  cleo,
   francine
 ];
 
